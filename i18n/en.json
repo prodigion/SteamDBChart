@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"steamdb-chart-desc": "Provides a <steamdb> tag to chart concurrent players on Steam in the last seven days.",
+	"steamdb-chart-no-appid": "Error: Please provide a valid Steam appid."
+}

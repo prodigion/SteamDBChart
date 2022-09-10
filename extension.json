@@ -1,0 +1,31 @@
+{
+	"name": "SteamDB Chart",
+	"version": "0.1",
+	"author": [
+		"Prod"
+	],
+	"url": "https://github.com/prodigion/SteamDBChart",
+	"descriptionmsg": "steamdb-chart-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SteamDBChart\\": "includes/"
+	},
+	"HookHandlers": {
+		"SteamDBChartHooks": {
+			"class": "MediaWiki\\Extension\\SteamDBChart\\Hooks"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "SteamDBChartHooks"
+	},
+	"MessagesDirs": {
+		"SteamDBChart": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}
